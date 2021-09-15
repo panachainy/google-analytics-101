@@ -1,0 +1,14 @@
+{
+  "name": "google-analytics-101",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:panachainy/google-analytics-101.git",
+  "author": "Panachai <panachai.ny@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@google-analytics/data": "^2.7.0"
+  },
+  "scripts": {
+    "dev": "node main.js"
+  }
+}

@@ -35,3 +35,9 @@ https://console.cloud.google.com/apis/credentials?authuser=2&project=sale-page-3
 
 - [migrate UA to GA4](https://developers.google.com/analytics/devguides/reporting/data/v1/migration-guide?authuser=2)
 
+## JS
+
+```sh
+export GOOGLE_APPLICATION_CREDENTIALS="./sale-page.json"
+export PROPERTY_ID="xxxxxxxxx"
+```
