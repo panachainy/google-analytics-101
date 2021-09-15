@@ -16,7 +16,7 @@ https://cloud.google.com/docs/authentication/production#cloud-console
 
 https://console.cloud.google.com/apis/credentials?authuser=2&project=sale-page-325603
 
-## Step
+## Step UA
 
 1. Create google account
 2. Create Organize of google analytic
@@ -25,3 +25,13 @@ https://console.cloud.google.com/apis/credentials?authuser=2&project=sale-page-3
 5. [Create Data Streams](https://support.google.com/analytics/answer/9304153?hl=en)
    1. [Other one](https://www.datadrivenu.com/understanding-data-streams-google-analytics-4/)
 6. x
+
+## GA4
+
+- [Admin API](https://developers.google.com/analytics/devguides/config/admin/v1)
+- [Manage API](https://developers.google.com/analytics/devguides/config/mgmt/v3/mgmtReference/management/webproperties/get)
+
+## TODO
+
+- [migrate UA to GA4](https://developers.google.com/analytics/devguides/reporting/data/v1/migration-guide?authuser=2)
+
