@@ -41,3 +41,5 @@ https://console.cloud.google.com/apis/credentials?authuser=2&project=sale-page-3
 export GOOGLE_APPLICATION_CREDENTIALS="./key.json"
 export PROPERTY_ID="xxxxxxxxx"
 ```
+
+[doc](https://googleapis.dev/nodejs/analytics-data/latest/index.html#installing-the-client-library)
