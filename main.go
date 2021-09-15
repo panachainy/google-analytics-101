@@ -72,7 +72,7 @@ func SetupApp() *fiber.App {
 }
 
 func way2() {
-	key, _ := ioutil.ReadFile("sale-page.json")
+	key, _ := ioutil.ReadFile("key.json")
 
 	jwtConf, err := google.JWTConfigFromJSON(
 		key,

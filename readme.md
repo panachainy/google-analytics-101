@@ -38,6 +38,6 @@ https://console.cloud.google.com/apis/credentials?authuser=2&project=sale-page-3
 ## JS
 
 ```sh
-export GOOGLE_APPLICATION_CREDENTIALS="./sale-page.json"
+export GOOGLE_APPLICATION_CREDENTIALS="./key.json"
 export PROPERTY_ID="xxxxxxxxx"
 ```
