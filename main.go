@@ -71,34 +71,7 @@ func SetupApp() *fiber.App {
 	return app
 }
 
-// // apiKey shows how to use an API key to authenticate.
-// func apiKeyFunc() error {
-// 	client, err := pubsub.NewClient(context.Background(), "sale-page-325603", option.WithAPIKey(apiKey))
-// 	if err != nil {
-// 		return fmt.Errorf("pubsub.NewClient: %v", err)
-// 	}
-// 	defer client.Close()
-// 	// Use the authenticated client.
-// 	_ = client
-
-// 	return nil
-// }
-
-// func apiKey2Func() {
-// 	analyticsService, err := analytics.NewService(context.Background(), option.WithAPIKey(apiKey))
-// 	if err != nil {
-// 		logrus.Error(err)
-// 	}
-
-// 	x, err := analyticsService.Management.Accounts.List().Do()
-// 	p(err)
-
-// 	// x := analyticsService.Management.Accounts.List().Header()
-// 	logrus.Infof("%v", x)
-// }
-
 func way2() {
-	// key, _ := ioutil.ReadFile("key.json")
 	key, _ := ioutil.ReadFile("sale-page.json")
 
 	jwtConf, err := google.JWTConfigFromJSON(
