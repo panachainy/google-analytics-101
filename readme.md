@@ -15,5 +15,13 @@ https://cloud.google.com/docs/authentication/production#cloud-console
 ## API Credential
 
 https://console.cloud.google.com/apis/credentials?authuser=2&project=sale-page-325603
-## ETC
 
+## Step
+
+1. Create google account
+2. Create Organize of google analytic
+3. Create googla analytics
+4. [Enable Universal Analytics](https://support.google.com/analytics/answer/10269537?hl=en)
+5. [Create Data Streams](https://support.google.com/analytics/answer/9304153?hl=en)
+   1. [Other one](https://www.datadrivenu.com/understanding-data-streams-google-analytics-4/)
+6. x
