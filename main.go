@@ -1,6 +1,7 @@
 package main
 
 import (
+	"encoding/json"
 	"flag"
 	"fmt"
 	"google-analytics-101/utils"
@@ -168,4 +169,9 @@ func p(err error) {
 	if err != nil {
 		panic(err)
 	}
+}
+
+func objectTo(object interface{}) string {
+	b, _ := json.Marshal(object)
+	return string(b)
 }
