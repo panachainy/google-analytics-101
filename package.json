@@ -9,6 +9,9 @@
     "@google-analytics/data": "^2.7.0"
   },
   "scripts": {
-    "dev": "node main.js"
+    "dev": "nodemon main.js"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
   }
 }
