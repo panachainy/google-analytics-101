@@ -43,3 +43,12 @@ export PROPERTY_ID="xxxxxxxxx"
 - [doc](https://googleapis.dev/nodejs/analytics-data/latest/index.html#installing-the-client-library)
 - [Admin API](https://developers.google.com/analytics/devguides/config/admin/v1)
 - [Manage API](https://developers.google.com/analytics/devguides/config/mgmt/v3/mgmtReference/management/webproperties/get)
+
+## GTM
+
+1. Add Trigger Click - All Elements
+2. select `Some Clicks`
+3. add condition at `Fire this trigger` with `Click ID + contains + your button ID`
+4. Add tag on trigger
+   1. add parameter with `page_path` + `{{Page Path}}`
+5. Add Variable `Click ID`
