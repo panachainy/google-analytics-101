@@ -1,6 +1,6 @@
 <template>
   <div class="hello">
-    <button id="gtm-test-btn" v-on:click="gtmSend">GTM TEST</button>
+    <button id="gtm-test-btn">GTM TEST</button>
   </div>
 </template>
 
@@ -14,7 +14,7 @@ export default {
       console.log("this.$gtm.enabled() ->", this.$gtm.enabled());
 
       this.$gtm.trackEvent({
-        event: 'event', // Event type [default = 'interaction'] (Optional)
+        event: "event", // Event type [default = 'interaction'] (Optional)
         category: "Calculator",
         action: "click",
         label: "Home page SIP calculator",
