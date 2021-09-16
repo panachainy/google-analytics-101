@@ -12,7 +12,7 @@
     "core-js": "^3.6.5",
     "vue": "^2.6.11",
     "vue-gtag": "^1.16.1",
-    "vue-gtm": "^3.5.0"
+    "vue-gtm": "3.5.0-vue2"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",

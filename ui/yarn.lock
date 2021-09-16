@@ -1392,11 +1392,6 @@
   optionalDependencies:
     prettier "^1.18.2"
 
-"@vue/devtools-api@^6.0.0-beta.14":
-  version "6.0.0-beta.15"
-  resolved "https://registry.yarnpkg.com/@vue/devtools-api/-/devtools-api-6.0.0-beta.15.tgz#ad7cb384e062f165bcf9c83732125bffbc2ad83d"
-  integrity sha512-quBx4Jjpexo6KDiNUGFr/zF/2A4srKM9S9v2uHgMXSU//hjgq1eGzqkIFql8T9gfX5ZaVOUzYBP3jIdIR3PKIA==
-
 "@vue/preload-webpack-plugin@^1.1.0":
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/@vue/preload-webpack-plugin/-/preload-webpack-plugin-1.1.2.tgz#ceb924b4ecb3b9c43871c7a429a02f8423e621ab"
@@ -8153,14 +8148,12 @@ vue-gtag@^1.16.1:
   resolved "https://registry.yarnpkg.com/vue-gtag/-/vue-gtag-1.16.1.tgz#edb2f20ab4f6c4d4d372dfecf8c1fcc8ab890181"
   integrity sha512-5vs0pSGxdqrfXqN1Qwt0ZFXG0iTYjRMu/saddc7QIC5yp+DKgjWQRpGYVa7Pq+KbThxwzzMfo0sGi7ISa6NowA==
 
-vue-gtm@^3.5.0:
-  version "3.5.0"
-  resolved "https://registry.yarnpkg.com/vue-gtm/-/vue-gtm-3.5.0.tgz#a64843cec1c39aa57f07d25e114908d65b47f0d0"
-  integrity sha512-MJ0eqPm2NG1MjUJv8K3DghVzbXNONLd2rav0WbpuCfnD5r+SKyD+kxYnPo8exAg7zN+krY+swXoXKJuXtb2Acg==
+vue-gtm@3.5.0-vue2:
+  version "3.5.0-vue2"
+  resolved "https://registry.yarnpkg.com/vue-gtm/-/vue-gtm-3.5.0-vue2.tgz#a0ad7ba0923cd009bbd4ecf2653b961faa36b667"
+  integrity sha512-XuOCkRaoGQjChcY9Tn7TAziR2/ppWwwJQhC/Xh8t/DZjo6MC7QsOVTw9Wr8XDyyHAW8qR41ZnaBbo5IAi4b/Fw==
   dependencies:
     url-search-params-polyfill "^8.1.0"
-  optionalDependencies:
-    vue-router "^4.0.0"
 
 vue-hot-reload-api@^2.3.0:
   version "2.3.4"
@@ -8186,13 +8179,6 @@ vue-loader@^15.9.2:
     loader-utils "^1.1.0"
     vue-hot-reload-api "^2.3.0"
     vue-style-loader "^4.1.0"
-
-vue-router@^4.0.0:
-  version "4.0.11"
-  resolved "https://registry.yarnpkg.com/vue-router/-/vue-router-4.0.11.tgz#cd649a0941c635281763a20965b599643ddc68ed"
-  integrity sha512-sha6I8fx9HWtvTrFZfxZkiQQBpqSeT+UCwauYjkdOQYRvwsGwimlQQE2ayqUwuuXGzquFpCPoXzYKWlzL4OuXg==
-  dependencies:
-    "@vue/devtools-api" "^6.0.0-beta.14"
 
 vue-style-loader@^4.1.0, vue-style-loader@^4.1.2:
   version "4.1.3"
