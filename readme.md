@@ -26,7 +26,6 @@ https://console.cloud.google.com/apis/credentials?authuser=2&project=sale-page-3
 4. [Enable Universal Analytics](https://support.google.com/analytics/answer/10269537?hl=en)
 5. [Create Data Streams](https://support.google.com/analytics/answer/9304153?hl=en)
    1. [Other one](https://www.datadrivenu.com/understanding-data-streams-google-analytics-4/)
-6. x
 
 ## TODO
 
