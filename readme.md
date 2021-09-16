@@ -1,5 +1,7 @@
 # google-analytics-101
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/56ec4d05-5da2-460c-b2f2-4e82aa63596e/deploy-status)](https://app.netlify.com/sites/laughing-visvesvaraya-f032b7/deploys)
+
 - [Embed API](https://developers.google.com/analytics/devguides/reporting/embed/v1/getting-started)
 
 <!-- https://www.googleapis.com/analytics/v3/data/ga?ids=ga:12345&start-date=2008-10-01&end-date=2008-10-31&metrics=ga:sessions,ga:bounces -->
