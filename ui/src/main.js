@@ -1,5 +1,7 @@
 import Vue from 'vue'
 import App from './App.vue'
+import VueGtag from "vue-gtag";
+import VueGtm from "vue-gtm";
 
 Vue.config.productionTip = false
 
