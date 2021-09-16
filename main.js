@@ -18,28 +18,67 @@ async function runReport () {
             },
         ],
         dimensions: [
+            // {
+            //     name: 'city',
+            // },
             {
-                name: 'city',
+                name: 'pageTitle'
             },
+            {
+                name: 'pagePathPlusQueryString'
+            },
+            // {
+            //     name: 'hostName'
+            // },
+            // {
+            //     name: 'fullPageUrl'
+            // }
         ],
         metrics: [
+            // {
+            //     name: 'activeUsers',
+            // },
+            // {
+            //     name: 'eventCount'
+            // },
+            // {
+            //     name: 'eventCountPerUser'
+            // },
             {
-                name: 'activeUsers',
+                name: 'screenPageViews'
             },
+            // {
+            //     name: 'transactions',
+            // },
+            {
+                name: 'totalUsers',
+                invisible: false
+            },
+            // {
+            //     name: 'transactions'
+            // },
         ],
+        offset: 0,
+        limit: 10
+        // keepEmptyRows: true,
+        // metricFilter: {
+        //     "filter": {
+        //         object (Filter)
+        //       }
+        // }
     });
 
-    console.log('Report result:');
+    // console.log('Report result:');
 
-    response.rows.forEach(row => {
-        console.log(row.dimensionValues[0], row.metricValues[0]);
-    });
+    // response.rows.forEach(row => {
+    //     console.log(row.dimensionValues[0], row.metricValues[0]);
+    // });
 
 
     const util = require('util')
 
     console.log("===========================")
-    console.log(util.inspect(response.rows, false, null, true /* enable colors */))
+    console.log(util.inspect(response, false, null, true /* enable colors */))
     console.log("===========================")
 }
 
