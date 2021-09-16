@@ -1,0 +1,28 @@
+{
+  "dateRanges": [
+    {
+      "startDate": "2020-03-31",
+      "endDate": "today"
+    }
+  ],
+  "dimensions": [
+    {
+      "name": "pageTitle"
+    },
+    {
+      "name": "pagePathPlusQueryString"
+    }
+  ],
+  "metrics": [
+    {
+      "name": "screenPageViews"
+    },
+    {
+      "name": "totalUsers",
+      "invisible": false
+    }
+  ],
+  "offset": 0,
+  "limit": 10
+}
+//properties/286113492
