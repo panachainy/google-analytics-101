@@ -1,6 +1,7 @@
 <template>
   <div class="hello">
-    <button id="gtm-test-btn">GTM TEST</button>
+    <button id="gtm-test-btn-1" v-on:click="gtmSend">GTM TEST 1</button>
+    <button id="gtm-test-btn-2">GTM TEST 2</button>
   </div>
 </template>
 
