@@ -27,6 +27,9 @@ async function runReport () {
             {
                 name: 'pagePathPlusQueryString'
             },
+            {
+                name: 'eventName'
+            }
             // {
             //     name: 'hostName'
             // },
