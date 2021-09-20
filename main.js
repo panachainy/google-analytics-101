@@ -21,15 +21,16 @@ async function runReport () {
             // {
             //     name: 'city',
             // },
+            // {
+            //     name: 'pageTitle'
+            // },
             {
-                name: 'pageTitle'
+                name: 'pagePath'
+                // name: 'pagePathPlusQueryString'
             },
-            {
-                name: 'pagePathPlusQueryString'
-            },
-            {
-                name: 'eventName'
-            }
+            // {
+            //     name: 'eventName'
+            // }
             // {
             //     name: 'hostName'
             // },
