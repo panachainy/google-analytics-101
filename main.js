@@ -54,10 +54,10 @@ async function runReport () {
             // {
             //     name: 'transactions',
             // },
-            {
-                name: 'totalUsers',
-                invisible: false
-            },
+            // {
+            //     name: 'totalUsers',
+            //     invisible: false
+            // },
             // {
             //     name: 'transactions'
             // },
