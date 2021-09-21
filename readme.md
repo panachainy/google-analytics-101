@@ -2,8 +2,6 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/56ec4d05-5da2-460c-b2f2-4e82aa63596e/deploy-status)](https://app.netlify.com/sites/laughing-visvesvaraya-f032b7/deploys)
 
-- [Embed API](https://developers.google.com/analytics/devguides/reporting/embed/v1/getting-started)
-
 <!-- https://www.googleapis.com/analytics/v3/data/ga?ids=ga:12345&start-date=2008-10-01&end-date=2008-10-31&metrics=ga:sessions,ga:bounces -->
 
 ## REF
@@ -18,7 +16,7 @@ https://cloud.google.com/docs/authentication/production#cloud-console
 
 https://console.cloud.google.com/apis/credentials?authuser=2&project=sale-page-325603
 
-## Golang UA
+## ~~Golang UA~~ << Obsolete
 
 ### Step UA
 
@@ -34,6 +32,8 @@ https://console.cloud.google.com/apis/credentials?authuser=2&project=sale-page-3
 - [migrate UA to GA4](https://developers.google.com/analytics/devguides/reporting/data/v1/migration-guide?authuser=2)
 
 ## JS (GA4)
+
+Run report support only start GA4 to before current date
 
 ```sh
 export GOOGLE_APPLICATION_CREDENTIALS="./key.json"
@@ -52,3 +52,5 @@ export PROPERTY_ID="xxxxxxxxx"
 4. Add tag on trigger
    1. add parameter with `page_path` + `{{Page Path}}`
 5. Add Variable `Click ID`
+
+> Don't forget publish GTM
