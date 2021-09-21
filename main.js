@@ -28,9 +28,10 @@ async function runReport () {
                 name: 'pagePath'
                 // name: 'pagePathPlusQueryString'
             },
-            // {
-            //     name: 'eventName'
-            // }
+            {
+                name: 'eventName'
+            },
+
             // {
             //     name: 'hostName'
             // },
@@ -42,9 +43,9 @@ async function runReport () {
             // {
             //     name: 'activeUsers',
             // },
-            // {
-            //     name: 'eventCount'
-            // },
+            {
+                name: 'eventCount'
+            },
             // {
             //     name: 'eventCountPerUser'
             // },
