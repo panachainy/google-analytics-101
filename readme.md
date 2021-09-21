@@ -2,7 +2,15 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/56ec4d05-5da2-460c-b2f2-4e82aa63596e/deploy-status)](https://app.netlify.com/sites/laughing-visvesvaraya-f032b7/deploys)
 
-<!-- https://www.googleapis.com/analytics/v3/data/ga?ids=ga:12345&start-date=2008-10-01&end-date=2008-10-31&metrics=ga:sessions,ga:bounces -->
+- [google-analytics-101](#google-analytics-101)
+  - [REF](#ref)
+  - [Make credential for google](#make-credential-for-google)
+  - [API Credential](#api-credential)
+  - [~~Golang UA~~ << Obsolete](#golang-ua--obsolete)
+    - [Step UA](#step-ua)
+  - [TODO](#todo)
+  - [JS (GA4)](#js-ga4)
+  - [GTM](#gtm)
 
 ## REF
 
