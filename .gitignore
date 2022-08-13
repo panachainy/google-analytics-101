@@ -4,3 +4,4 @@ node_modules/
 key.json
 .DS_Store
 dist/
+.yarn
