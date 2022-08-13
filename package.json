@@ -6,7 +6,8 @@
   "author": "Panachai <panachai.ny@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "@google-analytics/data": "^2.7.0"
+    "@google-analytics/data": "^2.7.0",
+    "dotenv": "^16.0.1"
   },
   "scripts": {
     "dev": "nodemon main.js"
