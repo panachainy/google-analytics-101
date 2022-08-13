@@ -10,6 +10,7 @@
     - [Step UA](#step-ua)
   - [TODO](#todo)
   - [JS (GA4)](#js-ga4)
+    - [Create service account](#create-service-account)
   - [GTM](#gtm)
 
 ## REF
@@ -51,6 +52,13 @@ export PROPERTY_ID="xxxxxxxxx"
 - [doc](https://googleapis.dev/nodejs/analytics-data/latest/index.html#installing-the-client-library)
 - [Admin API](https://developers.google.com/analytics/devguides/config/admin/v1)
 - [Manage API](https://developers.google.com/analytics/devguides/config/mgmt/v3/mgmtReference/management/webproperties/get)
+
+### Create service account
+
+- select project
+- grant permission `Firebase Analytics Viewer`
+- created
+- select `new service account` then create private key in json format
 
 ## GTM
 
