@@ -11,6 +11,7 @@
   - [TODO](#todo)
   - [JS (GA4)](#js-ga4)
     - [Create service account](#create-service-account)
+    - [apply permission for ga4 project](#apply-permission-for-ga4-project)
     - [Enable GA4 API](#enable-ga4-api)
   - [GTM](#gtm)
 
@@ -57,9 +58,16 @@ export PROPERTY_ID="xxxxxxxxx"
 ### Create service account
 
 - select project
-- grant permission `Firebase Analytics Viewer`
+- grant permission `Firebase Analytics Viewer` (firebaseanalytics.resources.googleAnalyticsReadAndAnalyze)
 - created
 - select `new service account` then create private key in json format
+
+### apply permission for ga4 project
+
+- Go to GA4 project
+- click admin section (left bottom of page)
+- Property Access Management
+- add `service account` that you already create.
 
 ### Enable GA4 API
 
