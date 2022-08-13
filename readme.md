@@ -11,6 +11,7 @@
   - [TODO](#todo)
   - [JS (GA4)](#js-ga4)
     - [Create service account](#create-service-account)
+    - [Enable GA4 API](#enable-ga4-api)
   - [GTM](#gtm)
 
 ## REF
@@ -59,6 +60,10 @@ export PROPERTY_ID="xxxxxxxxx"
 - grant permission `Firebase Analytics Viewer`
 - created
 - select `new service account` then create private key in json format
+
+### Enable GA4 API
+
+https://console.cloud.google.com/apis/library/analyticsdata.googleapis.com?project=habit-807a6
 
 ## GTM
 
