@@ -15,7 +15,7 @@ async function runReport() {
     property: `properties/${propertyId}`,
     dateRanges: [
       {
-        startDate: "2020-03-31",
+        startDate: "2021-01-31",
         endDate: "today",
       },
     ],
@@ -30,12 +30,12 @@ async function runReport() {
         name: "pagePath",
         // name: 'pagePathPlusQueryString'
       },
-      {
-        name: "eventName",
-      },
-      {
-        name: "customEvent:product_coach_id",
-      },
+      // {
+      //   name: "eventName",
+      // },
+      // {
+      //   name: "customEvent:product_coach_id",
+      // },
 
       // {
       //     name: 'hostName'
@@ -48,9 +48,9 @@ async function runReport() {
       // {
       //     name: 'activeUsers',
       // },
-      {
-        name: "eventCount",
-      },
+      // {
+      //   name: "eventCount",
+      // },
       // {
       //     name: 'eventCountPerUser'
       // },
