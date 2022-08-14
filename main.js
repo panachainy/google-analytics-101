@@ -45,15 +45,6 @@ async function runReport() {
       // }
     ],
     metrics: [
-      // {
-      //     name: 'activeUsers',
-      // },
-      // {
-      //   name: "eventCount",
-      // },
-      // {
-      //     name: 'eventCountPerUser'
-      // },
       {
         name: "screenPageViews",
       },
@@ -64,13 +55,10 @@ async function runReport() {
       //     name: 'totalUsers',
       //     invisible: false
       // },
-      // {
-      //     name: 'transactions'
-      // },
     ],
     offset: 0,
     limit: 10,
-    // keepEmptyRows: true,
+    keepEmptyRows: true,
     // metricFilter: {
     //     "filter": {
     //         object (Filter)
